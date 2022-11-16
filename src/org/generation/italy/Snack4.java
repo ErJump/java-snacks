@@ -14,6 +14,5 @@ public class Snack4 {
 		for (int i = 0; i < delta; i++) {
 			System.out.println(rnd.nextInt());
 		}
-		
 	}
 }
