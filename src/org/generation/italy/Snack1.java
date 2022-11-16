@@ -9,6 +9,8 @@ public class Snack1 {
 		System.out.print("Scegli un numero: ");
 		int userNumber = sc.nextInt();
 		
+		sc.close();
+		
 		if (userNumber % 2 == 0) 
 			System.out.println(userNumber);
 		else
